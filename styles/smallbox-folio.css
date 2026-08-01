@@ -392,6 +392,21 @@
     background: #073969;
   }
 
+  .chair-folio-hero > div,
+  .chair-folio-shell,
+  .folio-card,
+  .folio-body,
+  .folio-head,
+  .folio-meta article,
+  .folio-field {
+    min-width: 0;
+  }
+
+  .chair-folio-hero h1 {
+    font-size: clamp(1.9rem, 10vw, 2.7rem);
+    overflow-wrap: anywhere;
+  }
+
   .chair-folio-shell {
     padding: 1rem;
   }
@@ -408,6 +423,24 @@
 
   .folio-card {
     grid-template-columns: 1fr;
+  }
+
+  .folio-body {
+    padding: 1rem;
+  }
+
+  .folio-head {
+    flex-direction: column;
+  }
+
+  .folio-card-graphic {
+    margin: 0.65rem 0 0;
+    padding: 0.45rem;
+  }
+
+  .folio-actions .button-link {
+    max-width: 100%;
+    white-space: normal;
   }
 
   .folio-number {
@@ -434,6 +467,29 @@
   .folio-routine li,
   .smallbox-folio-page .folio-routine li {
     grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 430px) {
+  .folio-details,
+  .folio-actions {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .folio-actions .button-link {
+    width: 100%;
+  }
+
+  .folio-submission {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .submission-badge {
+    width: 72px;
+    height: 72px;
+    font-size: 0.95rem;
   }
 }
 

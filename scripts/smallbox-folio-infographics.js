@@ -1,17 +1,17 @@
 (() => {
   const graphics = [
-    ['Project brief and success criteria', 'sb-card-01.png'],
-    ['Planning, marking and layout', 'sb-card-02.png'],
-    ['WHS and workshop controls', 'sb-card-03.png'],
-    ['Timber inspection and material placement', 'sb-card-04.png'],
-    ['Joints and divider fitting', 'sb-card-05.png'],
-    ['Assembly and clamp control', 'sb-card-06.png'],
-    ['Surface preparation', 'sb-card-07.png'],
-    ['Finish quality controls', 'sb-card-08.png'],
-    ['Evidence flow and sequencing', 'sb-card-09.png'],
-    ['Problem-solving and adjustment', 'sb-card-10.png'],
-    ['PMI evaluation', 'sb-card-11.png'],
-    ['Reflection and transfer', 'sb-card-12.png']
+    ['Project brief and success criteria', 'sb-card-01-v2.png'],
+    ['Planning, marking and layout', 'sb-card-02-v2.png'],
+    ['WHS and workshop controls', 'sb-card-03-v2.png'],
+    ['Timber inspection and material placement', 'sb-card-04-v2.png'],
+    ['Joints and divider fitting', 'sb-card-05-v2.png'],
+    ['Assembly and clamp control', 'sb-card-06-v2.png'],
+    ['Surface preparation', 'sb-card-07-v2.png'],
+    ['Finish quality controls', 'sb-card-08-v2.png'],
+    ['Evidence flow and sequencing', 'sb-card-09-v2.png'],
+    ['Problem-solving and adjustment', 'sb-card-10-v2.png'],
+    ['PMI evaluation', 'sb-card-11-v2.png'],
+    ['Reflection and transfer', 'sb-card-12-v2.png']
   ];
 
   function addInfographics() {
