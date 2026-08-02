@@ -167,18 +167,29 @@
 }
 
 .lesson-visual {
-  margin: 1.4rem 0 0;
-  padding: 1rem;
+  float: right;
+  width: min(42%, 430px);
+  margin: .25rem 0 1rem 1.4rem;
+  padding: .7rem;
   border: 1px solid var(--line);
   border-radius: 14px;
   background: #f8fbfe;
   text-align: center;
 }
 
+.textbook-section {
+  display: flow-root;
+}
+
+.lesson-visual--left {
+  float: left;
+  margin: .25rem 1.4rem 1rem 0;
+}
+
 .lesson-visual img {
   display: block;
-  width: min(100%, 680px);
-  max-height: 430px;
+  width: 100%;
+  height: auto;
   object-fit: contain;
   margin: 0 auto;
   border-radius: 10px;
@@ -250,6 +261,13 @@
 
   .resource-actions {
     justify-content: flex-start;
+  }
+
+  .lesson-visual,
+  .lesson-visual--left {
+    float: none;
+    width: 100%;
+    margin: 1.15rem 0;
   }
 }
 
