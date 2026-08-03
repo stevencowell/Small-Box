@@ -535,3 +535,5 @@
 
   document.addEventListener('DOMContentLoaded', initialise);
 }());
+
+(() => { const script = document.createElement('script'); script.src = '/Small-Box/shared/hub-navigation.js'; document.head.append(script); })();
