@@ -1,7 +1,21 @@
 window.LESSON_CONFIG = {
   storageKey: "smallbox-weeks5-6-guided-v1",
   resetLabel: "Weeks 5-6",
-  title: "Small Box Weeks 5-6 Evidence"
+  title: "Small Box Weeks 5-6 Evidence",
+  theoryTargets: [
+    {id: "theory-1", title: "Surface readiness and final fitting"},
+    {id: "theory-2", title: "Finish quality and handling controls"},
+    {id: "theory-1", title: "Surface readiness and final fitting"},
+    {id: "theory-2", title: "Finish quality and handling controls"},
+    {id: "theory-3", title: "PMI-based final evaluation"},
+    {id: "theory-1", title: "Surface readiness and final fitting"},
+    {id: "theory-2", title: "Finish quality and handling controls"},
+    {id: "theory-3", title: "PMI-based final evaluation"},
+    {id: "theory-3", title: "PMI-based final evaluation"},
+    {id: "theory-3", title: "PMI-based final evaluation"},
+    {id: "theory-3", title: "PMI-based final evaluation"},
+    {id: "theory-3", title: "PMI-based final evaluation"}
+  ]
 };
 
 window.MC_QUESTIONS = [
@@ -243,7 +257,7 @@ window.WRITTEN_QUESTIONS = [
       "Name one control used before finishing.",
       "Add one evidence note connected to this readiness check."
     ],
-    model: "The box was ready for finishing when the surface was visually consistent, clean, dry, and no obvious tool marks remained in high-use areas. I then documented the final preparation checks before coating."
+    model: "The box was ready for finish when the surface felt even and was clean, dry and free of visible tool marks. I recorded these checks before applying the approved finish."
   },
   {
     title: "2. Describe one correction and evidence impact",
@@ -264,7 +278,7 @@ window.WRITTEN_QUESTIONS = [
       "State what you observed before and after.",
       "State which evidence proves the improvement."
     ],
-    model: "I corrected a slight fit drift by re-checking and re-setting the divider seating before final closure. A revised note and a follow-up image showed improved stability and movement."
+    model: "The divider did not sit evenly, so I checked the fit and adjusted the seating as directed. A follow-up photo and note showed that it sat more securely."
   },
   {
     title: "3. Complete your PMI final review",
@@ -285,7 +299,7 @@ window.WRITTEN_QUESTIONS = [
       "Include one minus with a correction plan.",
       "Include one interesting transfer idea."
     ],
-    model: "A strong PMI review balanced two strengths with one clear limit and one future improvement. For example, a successful divider fit was balanced against a minor finish consistency issue, leading to a future plan to improve staging intervals."
+    model: "Plus: the divider fitted securely and could still be removed. Minus: the finish looked uneven in one area. Interesting: more careful surface checks before finishing could improve my next project."
   },
   {
     title: "4. Link small-box work to future projects",
@@ -306,6 +320,6 @@ window.WRITTEN_QUESTIONS = [
       "Explain why each helps quality.",
       "Link to a concrete future action."
     ],
-    model: "I will keep a repeatable check-and-record routine before irreversible operations and use divider/fit validation steps before final closure. Both habits reduce rework and strengthen evidence quality."
+    model: "On my next project, I will check and record each setup before cutting. I will also test the fit before final assembly so I can correct small problems early."
   }
 ];

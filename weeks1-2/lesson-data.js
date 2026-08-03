@@ -1,7 +1,22 @@
 window.LESSON_CONFIG = {
   storageKey: "smallbox-weeks1-2-guided-v1",
   resetLabel: "Weeks 1-2",
-  title: "Small Box Weeks 1-2 Evidence"
+  title: "Small Box Weeks 1-2 Evidence",
+  theoryTargets: [
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-2", title: "Accurate measurement and marking control"},
+    {id: "theory-3", title: "Workshop safety and hazard control hierarchy"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-2", title: "Accurate measurement and marking control"},
+    {id: "theory-3", title: "Workshop safety and hazard control hierarchy"},
+    {id: "theory-3", title: "Workshop safety and hazard control hierarchy"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-1", title: "Understand the Small Box project brief"},
+    {id: "theory-3", title: "Workshop safety and hazard control hierarchy"}
+  ]
 };
 
 window.MC_QUESTIONS = [
@@ -261,7 +276,7 @@ window.WRITTEN_QUESTIONS = [
       "Explain what each check was protecting.",
       "Connect one check to your evidence record."
     ],
-    model: "A safe setup is established by checking the workpiece secure condition, tool readiness, and hazard controls before any cut is made."
+    model: "Before cutting, I would clear the bench, secure the timber and check that the tool and safety controls are ready. If anything was unclear, I would stop and ask my teacher."
   },
   {
     title: "2. Reflect on measurement reliability",
@@ -281,7 +296,7 @@ window.WRITTEN_QUESTIONS = [
       "Include one control check you used.",
       "State what you changed after verification."
     ],
-    model: "Reliable measurement is built by verifying each marking point before a cut and re-checking if uncertainty appears before continuing."
+    model: "I would read the required dimension, measure from the correct reference edge and mark one clear line. I would check the measurement again before cutting."
   },
   {
     title: "3. Describe your project evidence plan",
@@ -302,7 +317,7 @@ window.WRITTEN_QUESTIONS = [
       "Link each to a part of the brief.",
       "Make the evidence traceable and chronological."
     ],
-    model: "Evidence should include setup notes, verified measurements and control checks, each tied to one brief expectation."
+    model: "My evidence would include a setup note, a checked measurement and a photo of the timber secured for the cut. Each item would show how I followed the brief."
   },
   {
     title: "4. Connect your week 1 and 2 decisions",
@@ -323,6 +338,6 @@ window.WRITTEN_QUESTIONS = [
       "Include one verification action.",
       "End with a concrete evidence item."
     ],
-    model: "The chain should show setup validation, secure marking, verified controls, then the first cut under the approved checklist."
+    model: "My record would show the safe setup first, then the checked marks and controls, followed by the first approved cut. This makes the work sequence easy to follow."
   }
 ];

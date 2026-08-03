@@ -1,7 +1,22 @@
 window.LESSON_CONFIG = {
   storageKey: "smallbox-weeks3-4-guided-v1",
   resetLabel: "Weeks 3-4",
-  title: "Small Box Weeks 3-4 Evidence"
+  title: "Small Box Weeks 3-4 Evidence",
+  theoryTargets: [
+    {id: "theory-1", title: "Cutting and clamping controls"},
+    {id: "theory-2", title: "Butt joint quality and divider fit"},
+    {id: "theory-3", title: "Common assembly errors and recovery"},
+    {id: "theory-2", title: "Butt joint quality and divider fit"},
+    {id: "theory-3", title: "Common assembly errors and recovery"},
+    {id: "theory-2", title: "Butt joint quality and divider fit"},
+    {id: "theory-1", title: "Cutting and clamping controls"},
+    {id: "theory-2", title: "Butt joint quality and divider fit"},
+    {id: "theory-3", title: "Common assembly errors and recovery"},
+    {id: "theory-2", title: "Butt joint quality and divider fit"},
+    {id: "theory-3", title: "Common assembly errors and recovery"},
+    {id: "theory-3", title: "Common assembly errors and recovery"},
+    {id: "theory-3", title: "Common assembly errors and recovery"}
+  ]
 };
 
 window.MC_QUESTIONS = [
@@ -261,7 +276,7 @@ window.WRITTEN_QUESTIONS = [
       "Name one check you repeated.",
       "State one evidence item that proves the control was used."
     ],
-    model: "I used a fixed sequence of holding, checking and re-checking before each larger cut. This reduced movement and helped me identify fit issues before any irreversible join decision."
+    model: "I secured the timber, checked the marks and made each cut in the planned order. This reduced movement and let me find fit problems before final assembly."
   },
   {
     title: "2. Record divider and fit decisions",
@@ -282,7 +297,7 @@ window.WRITTEN_QUESTIONS = [
       "Describe exactly what you changed first.",
       "Say what your re-check showed."
     ],
-    model: "I identified the divider issue as too tight, adjusted a single relevant edge, then re-tested movement in both directions before recording the fit as complete."
+    model: "The divider was too tight, so I adjusted one edge a small amount and tested the fit again. I repeated the check until it fitted securely but could still be removed."
   },
   {
     title: "3. Link a correction to your evidence log",
@@ -303,7 +318,7 @@ window.WRITTEN_QUESTIONS = [
       "Describe the link from issue to action.",
       "State the outcome in one sentence."
     ],
-    model: "I linked this correction through a dated note and before/after photo sequence that showed the issue, adjustment and measured re-check result."
+    model: "I wrote a dated note explaining the problem and took before-and-after photos. The second photo and measurement showed that the correction improved the fit."
   },
   {
     title: "4. Reflect on control versus speed",
@@ -324,6 +339,6 @@ window.WRITTEN_QUESTIONS = [
       "Explain the benefit of that pause.",
       "State the quality impact."
     ],
-    model: "I slowed during fitting to confirm squareness before final assembly. The extra check reduced the risk of repeated errors and produced a more stable divider fit."
+    model: "I slowed down and checked the box for square before final assembly. This helped me correct the fit early and made the divider more stable."
   }
 ];
