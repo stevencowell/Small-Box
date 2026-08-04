@@ -260,6 +260,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "1. Explain your project safety setup",
     prompt: "Describe your Weeks 1-2 risk-control setup and why each item mattered before cutting.",
+    clarification: "What is the key idea about your project safety setup? Which reasons or steps matter?",
     minWords: 40,
     concepts: [
       { label: "safety", terms: ["safety", "risk", "control", "hazard", "check"] },
@@ -281,6 +282,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "2. Reflect on measurement reliability",
     prompt: "Explain how you kept your measurements reliable in this module and what you do if a mark is uncertain.",
+    clarification: "How did you keep measurements accurate? What would you do if a mark was uncertain?",
     minWords: 45,
     concepts: [
       { label: "measurement", terms: ["measure", "mark", "verify", "re-measure", "marking"] },
@@ -301,6 +303,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "3. Describe your project evidence plan",
     prompt: "List the evidence you will include from Weeks 1-2 to prove planning and safety quality for assessment.",
+    clarification: "Which evidence will you include? What does each item prove?",
     minWords: 35,
     concepts: [
       { label: "evidence", terms: ["evidence", "photo", "record", "check", "notes"] },
@@ -322,6 +325,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "4. Connect your week 1 and 2 decisions",
     prompt: "Write a short decision chain for Weeks 1-2 from first setup to first safe cut.",
+    clarification: "What must be checked first? What happens next? What evidence shows you can move on?",
     minWords: 50,
     concepts: [
       { label: "decision", terms: ["decision", "first", "setup", "safe", "sequence"] },

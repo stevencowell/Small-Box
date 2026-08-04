@@ -260,6 +260,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "1. Explain your clamping and sequencing choices",
     prompt: "Describe how your clamping and sequence prevented movement during the key cutting and fit checks in Weeks 3-4.",
+    clarification: "What is the safe glue-up order? How will you check alignment, pressure and clean-up?",
     minWords: 45,
     concepts: [
       { label: "clamping", terms: ["clamp", "secure", "holding", "support"] },
@@ -281,6 +282,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "2. Record divider and fit decisions",
     prompt: "Explain one divider fit problem you encountered and how you corrected it without forcing the component.",
+    clarification: "What must you include in divider and fit decisions?",
     minWords: 45,
     concepts: [
       { label: "fit", terms: ["fit", "clearance", "divider", "slip", "alignment"] },
@@ -302,6 +304,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "3. Link a correction to your evidence log",
     prompt: "Choose one correction from Weeks 3-4 and link it to a note or photo in your evidence routine.",
+    clarification: "What did you correct? Which note or photo proves the change?",
     minWords: 40,
     concepts: [
       { label: "evidence", terms: ["evidence", "photo", "note", "log", "record"] },
@@ -323,6 +326,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "4. Reflect on control versus speed",
     prompt: "Reflect on where you traded speed for control this fortnight and why that trade-off mattered.",
+    clarification: "What worked, what caused a problem, and what will you change and check next time?",
     minWords: 50,
     concepts: [
       { label: "control", terms: ["control", "check", "pause", "verification", "safety"] },

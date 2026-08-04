@@ -241,6 +241,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "1. Explain how you determined finish readiness",
     prompt: "Describe the checks you used to decide the Small Box was ready for finishing and first application.",
+    clarification: "What is the key idea about how you determined finish readiness? Which reasons or steps matter?",
     minWords: 40,
     concepts: [
       { label: "readiness", terms: ["ready", "surface", "clean", "dry", "check"] },
@@ -262,6 +263,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "2. Describe one correction and evidence impact",
     prompt: "Write about one post-assembly correction and how it changed the Small Box outcome.",
+    clarification: "What are the main details or steps for one correction and evidence impact?",
     minWords: 45,
     concepts: [
       { label: "correction", terms: ["correct", "adjust", "issue", "rework", "fix"] },
@@ -283,6 +285,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "3. Complete your PMI final review",
     prompt: "Write a PMI section for your Small Box, including one improvement plan for transfer.",
+    clarification: "What must you include in your PMI final review?",
     minWords: 50,
     concepts: [
       { label: "plus", terms: ["plus", "strong", "worked", "effective", "good"] },
@@ -304,6 +307,7 @@ window.WRITTEN_QUESTIONS = [
   {
     title: "4. Link small-box work to future projects",
     prompt: "Describe two process habits from this project that you will apply to your next Timber task.",
+    clarification: "Which two work habits will you use again? How will each help next time?",
     minWords: 45,
     concepts: [
       { label: "transfer", terms: ["transfer", "next", "future", "apply", "repeat"] },
