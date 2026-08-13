@@ -135,11 +135,12 @@ button { cursor: pointer; }
   background-size: cover;
   color: #fff;
 }
-.lesson-hero .hero-inner { min-height: 275px; grid-template-columns: 1fr; }
-.lesson-hero .hero-copy { padding: 42px 0; max-width: 760px; text-shadow: 0 2px 14px rgba(0, 0, 0, .4); }
-.lesson-hero .eyebrow { color: #fff; }
-.lesson-hero h1 { color: #fff; font-size: clamp(2.5rem, 4.6vw, 3.8rem); margin-bottom: 6px; }
-.lesson-hero .hero-subtitle { color: rgba(255,255,255,.94); font-size: clamp(1.05rem, 1.9vw, 1.25rem); margin-bottom: 0; }
+.lesson-hero { background: linear-gradient(110deg, #edf3e4, #fff7d6); color: #153e2a; border-block: 1px solid #d8decf; }
+.lesson-hero .hero-inner { min-height: 290px; grid-template-columns: 1fr; }
+.lesson-hero .hero-copy { padding: 64px 0; max-width: 760px; text-shadow: none; }
+.lesson-hero .eyebrow { color: #c44935; }
+.lesson-hero h1 { color: #153e2a; font-size: clamp(2.8rem, 6vw, 4.8rem); margin-bottom: 6px; }
+.lesson-hero .hero-subtitle { color: #244538; font-size: clamp(1.05rem, 1.9vw, 1.25rem); margin-bottom: 0; }
 .lesson-hero .hero-chair { display: none; }
 .lesson-hero .hero-pills { display: none; }
 .lesson-hero + main { margin-top: 30px; }
@@ -147,6 +148,14 @@ button { cursor: pointer; }
 .lesson-hero + main .lesson-overview .roadmap li { min-height: 0; padding: 8px 14px; border: 0; border-left: 4px solid var(--brand); border-radius: 0; background: transparent; }
 .lesson-hero + main .lesson-overview .roadmap li:nth-child(n+4) { display: none; }
 .lesson-hero + main .lesson-overview .learning-grid { display: none; }
+.module-layout { width: min(1160px, calc(100% - 36px)); margin: 0 auto; padding: 48px 0 90px; display: grid; grid-template-columns: minmax(0, 1fr) 290px; gap: 32px; align-items: start; }
+.module-main { min-width: 0; }
+.module-aside { position: sticky; top: 92px; padding: 24px; }
+.module-aside h2 { font-size: clamp(1.75rem, 3vw, 2.3rem); }
+.module-aside h3 { margin-top: 28px; }
+.module-aside ol { margin: 0; padding-left: 1.35rem; }
+.module-aside li + li { margin-top: .65rem; }
+.module-aside a { color: var(--brand-dark); font-weight: 850; }
 
 main { width: min(1120px, calc(100% - 34px)); margin: -24px auto 60px; position: relative; z-index: 3; }
 .card {
@@ -717,6 +726,8 @@ footer p { margin: 3px; }
 .response-meta { flex-wrap: wrap; }
 
 @media (max-width: 700px) {
+  .module-layout { grid-template-columns: 1fr; width: calc(100% - 22px); padding: 30px 0 64px; }
+  .module-aside { position: static; order: -1; }
   .lesson-hero + main .lesson-overview .roadmap { grid-template-columns: 1fr; }
   .written-card { padding: 18px 14px; }
   .written-card textarea { min-height: 210px; padding: 12px; }

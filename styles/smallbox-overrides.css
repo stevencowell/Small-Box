@@ -16,6 +16,8 @@
   background-size: cover;
 }
 
+.lesson-hero { background: linear-gradient(110deg, #edf3e4, #fff7d6); }
+
 .landing-hero {
   border-bottom: 6px solid #d6a34f;
 }
