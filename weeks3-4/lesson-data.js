@@ -1,348 +1,460 @@
 window.LESSON_CONFIG = {
-  storageKey: "smallbox-weeks3-4-guided-v1",
-  resetLabel: "Weeks 3-4",
-  title: "Small Box Weeks 3-4 Evidence",
-  theoryTargets: [
-    {id: "theory-1", title: "Cutting and clamping controls"},
-    {id: "theory-2", title: "Butt joint quality and divider fit"},
-    {id: "theory-3", title: "Common assembly errors and recovery"},
-    {id: "theory-2", title: "Butt joint quality and divider fit"},
-    {id: "theory-3", title: "Common assembly errors and recovery"},
-    {id: "theory-2", title: "Butt joint quality and divider fit"},
-    {id: "theory-1", title: "Cutting and clamping controls"},
-    {id: "theory-2", title: "Butt joint quality and divider fit"},
-    {id: "theory-3", title: "Common assembly errors and recovery"},
-    {id: "theory-2", title: "Butt joint quality and divider fit"},
-    {id: "theory-3", title: "Common assembly errors and recovery"},
-    {id: "theory-3", title: "Common assembly errors and recovery"},
-    {id: "theory-3", title: "Common assembly errors and recovery"}
+  "storageKey": "smallbox-weeks3-4-guided-v2",
+  "resetLabel": "Weeks 3-4",
+  "title": "Small Box Weeks 3-4 Evidence",
+  "theoryTargets": [
+    {
+      "id": "theory-1",
+      "title": "Approved joint sequence and purpose"
+    },
+    {
+      "id": "theory-1",
+      "title": "Approved joint sequence and purpose"
+    },
+    {
+      "id": "theory-1",
+      "title": "Approved joint sequence and purpose"
+    },
+    {
+      "id": "theory-1",
+      "title": "Approved joint sequence and purpose"
+    },
+    {
+      "id": "theory-2",
+      "title": "Dry fit, rebates and square glue-up"
+    },
+    {
+      "id": "theory-2",
+      "title": "Dry fit, rebates and square glue-up"
+    },
+    {
+      "id": "theory-2",
+      "title": "Dry fit, rebates and square glue-up"
+    },
+    {
+      "id": "theory-2",
+      "title": "Dry fit, rebates and square glue-up"
+    },
+    {
+      "id": "theory-3",
+      "title": "Correction and evidence control"
+    },
+    {
+      "id": "theory-3",
+      "title": "Correction and evidence control"
+    },
+    {
+      "id": "theory-3",
+      "title": "Correction and evidence control"
+    },
+    {
+      "id": "theory-3",
+      "title": "Correction and evidence control"
+    }
   ]
 };
 
 window.MC_QUESTIONS = [
   {
-    question: "Before any full-cut pass is made, the best preparation is to:",
-    options: [
-      "Cut first and fix the parts after checking",
-      "Clamp, confirm alignment and check the marked line with your teacher check process",
-      "Ask another student for a quick opinion only",
-      "Rely on the timber still being flat to start cutting immediately"
+    "question": "Which joint is confirmed for joining the Small Box corners?",
+    "options": [
+      "Dovetail joint",
+      "Mortise and tenon joint",
+      "Lap joint",
+      "Dowel-only joint"
     ],
-    correct: 1,
-    hint: "Accuracy depends on controlled setup as much as on saw quality.",
-    strongHint: "Complete the clamp and alignment check before continuing.",
-    feedback: [
-      "Cutting before setup turns small errors into major rework.",
-      "Correct. Confirmed clamping and alignment protect both safety and quality.",
-      "Peer support is useful, but not a substitute for your own controlled setup.",
-      "Assumptions about flatness do not replace checks."
+    "correct": 0,
+    "hint": "Use the confirmed production order.",
+    "strongHint": "The corner sequence names dovetails.",
+    "feedback": [
+      "Correct. Dovetails are part of the approved Small Box sequence.",
+      "That joint is not named in the approved sequence.",
+      "That joint is not named in the approved sequence.",
+      "That is not the confirmed corner joint."
     ]
   },
   {
-    question: "A divider that is too loose or too tight usually indicates:",
-    options: [
-      "An acceptable finish variation",
-      "That there is a likely fitting or marking error",
-      "That the final sanding stage will fix it automatically",
-      "Nothing, because divider friction is not critical"
+    "question": "What is a rebate in timber work?",
+    "options": [
+      "A recessed step or channel that allows another component to sit into the work",
+      "A decorative paint pattern",
+      "A round hole made for a dowel",
+      "A flexible metal fastener"
     ],
-    correct: 1,
-    hint: "A divider that does not fit consistently needs correction before final assembly.",
-    strongHint: "Fix fit before the unit is locked.",
-    feedback: [
-      "Fit is expected to be controlled and justifiable, not random.",
-      "Correct. Divider fit issues are typically fitting and check issues.",
-      "Sanding does not fix loose/tight divider logic.",
-      "A divider that fails to hold its role can fail the brief."
+    "correct": 0,
+    "hint": "Think about how another part can be housed or located.",
+    "strongHint": "A rebate is a recessed feature.",
+    "feedback": [
+      "Correct. A rebate helps house or locate another component.",
+      "That is not a timber rebate.",
+      "That describes a hole, not a rebate.",
+      "That describes hardware, not a rebate."
     ]
   },
   {
-    question: "Which record is most valuable for a fitting correction?",
-    options: [
-      "A single final photo only",
-      "Date, step, diagnosis, action, re-check and result",
-      "A copied checklist from another student",
-      "No record until the final report"
+    "question": "Which parts of the approved sequence include rebates?",
+    "options": [
+      "The back and bottom stages",
+      "The lid hinges only",
+      "The outside finish only",
+      "The project folio only"
     ],
-    correct: 1,
-    hint: "Good records show process, not just outcome.",
-    strongHint: "Use a full chain: what was wrong and how you fixed it.",
-    feedback: [
-      "The final photo alone cannot show your process clearly.",
-      "Correct. A chain of evidence proves the correction was deliberate.",
-      "Borrowed records are weak and may be inaccurate.",
-      "Waiting to record late usually loses details."
+    "correct": 0,
+    "hint": "Read the confirmed high-level order.",
+    "strongHint": "The sequence names a back rebate and a bottom rebate.",
+    "feedback": [
+      "Correct. Both are named in the approved pathway.",
+      "Hinges are hardware, not the only rebate stage.",
+      "Finishing is separate from joint preparation.",
+      "The folio records evidence; it is not a timber joint."
     ]
   },
   {
-    question: "In this phase, the most reliable way to test squareness is to:",
-    options: [
-      "Estimate by eye at the end",
-      "Use repeatable checks after each correction and note the results",
-      "Skip checks because this is only a rough fit stage",
-      "Ask the teacher to test it privately"
+    "question": "Which additional joint is named before the bottom rebate stage?",
+    "options": [
+      "Finger joint",
+      "Scarf joint",
+      "Bridle joint",
+      "Mitre spline"
     ],
-    correct: 1,
-    hint: "Consistency in checks gives better evidence and fewer hidden faults.",
-    strongHint: "Check after every correction, not just once.",
-    feedback: [
-      "Visual estimates can miss small but important errors.",
-      "Correct. Repeatable checks reduce accidental drift.",
-      "Skip points lead to uncertainty at final evaluation.",
-      "Teacher guidance is important, but you still need your own documented check."
+    "correct": 0,
+    "hint": "Use the approved production order.",
+    "strongHint": "The sequence names a finger joint.",
+    "feedback": [
+      "Correct. The finger joint is confirmed in the sequence.",
+      "That joint is not named in the source boundary.",
+      "That joint is not named in the source boundary.",
+      "That joint is not named in the source boundary."
     ]
   },
   {
-    question: "If a part drifts during test fitting, the first action should be:",
-    options: [
-      "Force the joint closed and continue",
-      "Stop, separate, identify the error source and re-check before recommencing",
-      "Ignore it as long as it still closes",
-      "Take one more photo and write it off"
+    "question": "Why is a dry fit important before glue-up?",
+    "options": [
+      "It allows joint contact, alignment and squareness to be checked while corrections remain reversible",
+      "It makes teacher approval unnecessary",
+      "It guarantees every joint without checking",
+      "It replaces the approved production order"
     ],
-    correct: 1,
-    hint: "Safe and accurate work begins with controlled correction.",
-    strongHint: "Pause, diagnose, adjust, re-check.",
-    feedback: [
-      "Forcing creates hidden cracks and inaccurate evidence.",
-      "Correct. Identify and correct before moving on.",
-      "Forcing hides issues and weakens quality.",
-      "A photo without correction does not improve the work."
+    "correct": 0,
+    "hint": "A dry fit is a reversible checkpoint.",
+    "strongHint": "Check fit and square before an irreversible step.",
+    "feedback": [
+      "Correct. Dry fitting exposes issues while they can still be corrected.",
+      "Teacher control still applies.",
+      "A dry fit still requires careful checking.",
+      "The approved order remains the authority."
     ]
   },
   {
-    question: "What is a strong evidence marker for assembly quality?",
-    options: [
-      "One polished photo after completion",
-      "Clear evidence that each major fit was tested then repeated",
-      "A final statement with no timestamps",
-      "A quote from a forum or classmate"
+    "question": "What is the central quality check during glue-up?",
+    "options": [
+      "Keeping the box square while the approved joints are held in position",
+      "Applying the largest possible amount of adhesive",
+      "Hiding every joint with finish",
+      "Removing clamps immediately"
     ],
-    correct: 1,
-    hint: "Evidence should map your claim to verified checks.",
-    strongHint: "Show testing sequence, then final outcome.",
-    feedback: [
-      "A single finish photo can hide process gaps.",
-      "Correct. Repeatable testing is the strongest quality signal.",
-      "No timing means weak traceability.",
-      "External quotes are not evidence of your process."
+    "correct": 0,
+    "hint": "The approved pathway explicitly names square glue-up.",
+    "strongHint": "Square alignment must be maintained.",
+    "feedback": [
+      "Correct. Square glue-up protects the whole assembly.",
+      "More adhesive does not guarantee quality.",
+      "Finish cannot correct structural alignment.",
+      "Clamps remain subject to the approved process and teacher direction."
     ]
   },
   {
-    question: "If a safe working routine is followed, hazard control is typically:",
-    options: [
-      "Only required at the start of class",
-      "Set each time an operation changes",
-      "Left to one class coordinator",
-      "Done only for power tools"
+    "question": "What should happen if a joint does not seat consistently during a dry fit?",
+    "options": [
+      "Force it together",
+      "Stop, identify the cause, make one approved correction and recheck",
+      "Add finish to the joint",
+      "Ignore it if the outside looks acceptable"
     ],
-    correct: 1,
-    hint: "Hazard control follows operation changes.",
-    strongHint: "A change in operation may require a new control check.",
-    feedback: [
-      "One-time control is not sufficient in a live workshop.",
-      "Correct. Reassess controls when action points change.",
-      "Control is everyone’s responsibility.",
-      "Some actions have higher risk than manual tasks and need more controls."
+    "correct": 1,
+    "hint": "Do not convert a reversible issue into damage.",
+    "strongHint": "Stop, diagnose, correct and retest.",
+    "feedback": [
+      "Forcing can damage the work or hide the cause.",
+      "Correct. Controlled correction protects accuracy and evidence.",
+      "Finish is not a joint correction.",
+      "Appearance does not prove joint quality."
     ]
   },
   {
-    question: "Which action best controls cumulative fitting error?",
-    options: [
-      "Skipping intermediate checks to save time",
-      "Checking each change, then recording what changed and why",
-      "Relying on final visual impression",
-      "Using a looser divider and calling it functionally acceptable"
+    "question": "Why should only one correction be changed at a time?",
+    "options": [
+      "So the result can be linked to a specific cause and adjustment",
+      "So evidence can be avoided",
+      "So the source order no longer matters",
+      "So the box can be completed without rechecking"
     ],
-    correct: 1,
-    hint: "Documented intermediate checks stop drift.",
-    strongHint: "Intermittent checks and short notes reduce cumulative error.",
-    feedback: [
-      "Skipping checks increases cumulative error.",
-      "Correct. Record and justify changes as you go.",
-      "Visual impression is useful but incomplete.",
-      "Loose controls should be corrected, not accepted."
+    "correct": 0,
+    "hint": "A controlled test isolates cause and effect.",
+    "strongHint": "One change makes the evidence interpretable.",
+    "feedback": [
+      "Correct. This makes the correction traceable.",
+      "Evidence is still required.",
+      "The source order remains authoritative.",
+      "Every change needs a recheck."
     ]
   },
   {
-    question: "What does a good correction decision include?",
-    options: [
-      "Anecdote and opinion only",
-      "What was wrong, how it was fixed, and how fit was revalidated",
-      "A final photo and short apology",
-      "Deleting earlier records to clean the folder"
+    "question": "Which evidence best supports a joinery correction?",
+    "options": [
+      "Before-and-after observations with the identified issue, approved adjustment and recheck result",
+      "A final photo with no explanation",
+      "A copied description of another student's work",
+      "A claim that the joint felt better"
     ],
-    correct: 1,
-    hint: "Correction should be reversible in evidence terms.",
-    strongHint: "State cause, action, and re-check outcome.",
-    feedback: [
-      "Opinion is not sufficient without process trace.",
-      "Correct. Clear correction logic builds trust.",
-      "Final photo without context is incomplete.",
-      "Deleting records removes your evidence trail."
+    "correct": 0,
+    "hint": "Evidence should show cause, action and result.",
+    "strongHint": "Record the correction loop.",
+    "feedback": [
+      "Correct. This documents the full decision.",
+      "A final photo omits the reasoning.",
+      "Copied evidence is not personal evidence.",
+      "An unexplained feeling is too vague."
     ]
   },
   {
-    question: "A practical reason for dry fitting is to:",
-    options: [
-      "Show neatness in the final photo",
-      "Catch misalignment before irreversible fixing",
-      "Avoid recording progress",
-      "Delay the assembly step until the next class"
+    "question": "Who controls the exact methods, dimensions and machine settings used to prepare these joints?",
+    "options": [
+      "The teacher, current SOPs and approved project resources",
+      "The student website summary alone",
+      "Any online tutorial",
+      "The first student to reach the stage"
     ],
-    correct: 1,
-    hint: "Dry fitting exposes issues before it is too late.",
-    strongHint: "Use it as a non-destructive test point.",
-    feedback: [
-      "Dry fitting is more than neatness.",
-      "Correct. It prevents irreversible mistakes.",
-      "No recording means uncertain accountability.",
-      "Delaying without documentation does not solve issues."
+    "correct": 0,
+    "hint": "The module teaches concepts, not unauthorised settings.",
+    "strongHint": "Local approved authority controls practical details.",
+    "feedback": [
+      "Correct. These sources control practical work.",
+      "The website summary is not enough.",
+      "A generic tutorial cannot replace local authority.",
+      "Another student's progress is not authority."
     ]
   },
   {
-    question: "Which statement best supports evidence quality for Weeks 3-4?",
-    options: [
-      "You can describe everything from memory after final submission",
-      "Record controls and checks as they happen",
-      "Only record the points the teacher asks for",
-      "Avoid technical language to keep it simple"
+    "question": "Which sequence best matches controlled assembly?",
+    "options": [
+      "Prepare the confirmed joints, dry fit, check alignment and square, correct, then complete the teacher-approved glue-up",
+      "Glue first, then decide which joints are needed",
+      "Finish the surfaces before checking joint contact",
+      "Skip the dry fit if the marks look neat"
     ],
-    correct: 1,
-    hint: "Contemporary evidence is strongest when recorded at the time of action.",
-    strongHint: "Live records are much stronger than recollection.",
-    feedback: [
-      "Memory can drift and lose key steps.",
-      "Correct. Time-linked records support claims.",
-      "Limiting records can remove key evidence.",
-      "Technical language is useful when accurate and relevant."
+    "correct": 0,
+    "hint": "Move from reversible checks to the irreversible stage.",
+    "strongHint": "Joint preparation and dry fitting come before glue-up.",
+    "feedback": [
+      "Correct. This follows a controlled high-level sequence.",
+      "The joint system is determined by the approved project.",
+      "Finish does not replace joint checks.",
+      "Neat marks do not prove the assembly fits."
     ]
   },
   {
-    question: "If a component edge is not behaving as expected, you should:",
-    options: [
-      "Ignore the edge and rely on later sanding",
-      "Stop, note the inconsistency, and check the source dimensions and orientation references",
-      "Increase pressure until it matches the target",
-      "Swap the component and continue without explanation"
+    "question": "When is Module 2 ready to close?",
+    "options": [
+      "When the approved joinery sequence, dry-fit checks, square glue-up controls and correction evidence are understood and recorded",
+      "When the box has been coloured",
+      "When one joint has been hidden",
+      "When the student is working faster"
     ],
-    correct: 1,
-    hint: "A controlled check gives a path to repair.",
-    strongHint: "Return to references and orientation before guessing.",
-    feedback: [
-      "Ignoring inconsistency weakens the result.",
-      "Correct. Go back to references and check orientation and dimensions.",
-      "Forcing hides root causes.",
-      "Unexplained replacement is not traceable."
-    ]
-  },
-  {
-    question: "What is most important before moving from Weeks 3-4 to Weeks 5-6?",
-    options: [
-      "Only the final photo looks neat",
-      "You have tested key fits, controls and divider movement and recorded outcomes",
-      "All old notes are deleted",
-      "No changes are needed if there is no visible major fault"
-    ],
-    correct: 1,
-    hint: "Evidence readiness is the bridge between construction stages.",
-    strongHint: "Fit and control checks become your starting point for finishing.",
-    feedback: [
-      "Neatness is not a substitute for verified assembly quality.",
-      "Correct. The next stage depends on reliable controlled assembly.",
-      "Deleting notes breaks evidence continuity.",
-      "No visible fault can still hide functional issues."
+    "correct": 0,
+    "hint": "Readiness is based on sequence, quality and evidence.",
+    "strongHint": "All four areas must be addressed.",
+    "feedback": [
+      "Correct. This closes the joinery and assembly learning loop.",
+      "Colour does not establish assembly quality.",
+      "Hidden work is not evidence of control.",
+      "Speed is not the success criterion."
     ]
   }
 ];
 
 window.WRITTEN_QUESTIONS = [
   {
-    title: "1. Explain your clamping and sequencing choices",
-    prompt: "Describe how your clamping and sequence prevented movement during the key cutting and fit checks in Weeks 3-4.",
-    clarification: "What is the safe glue-up order? How will you check alignment, pressure and clean-up?",
-    minWords: 45,
-    concepts: [
-      { label: "clamping", terms: ["clamp", "secure", "holding", "support"] },
-      { label: "sequence", terms: ["sequence", "order", "set", "check"] },
-      { label: "safety", terms: ["safety", "control", "risk", "hazard"] }
+    "title": "1. Explain the approved joint sequence",
+    "prompt": "Explain how dovetails, the back rebate, finger joint and bottom rebate fit into the confirmed high-level Small Box sequence.",
+    "clarification": "Name the features in order without inventing dimensions or methods.",
+    "minWords": 50,
+    "concepts": [
+      {
+        "label": "dovetails",
+        "terms": [
+          "dovetail",
+          "dovetails",
+          "corner"
+        ]
+      },
+      {
+        "label": "rebates",
+        "terms": [
+          "back",
+          "bottom",
+          "rebate",
+          "rebates"
+        ]
+      },
+      {
+        "label": "finger joint",
+        "terms": [
+          "finger",
+          "joint",
+          "sequence"
+        ]
+      }
     ],
-    scaffold: [
-      "I clamped the piece by...",
-      "I checked this before...",
-      "This reduced the risk of..."
+    "scaffold": [
+      "The corner stage uses...",
+      "The next confirmed feature is...",
+      "Before the bottom rebate..."
     ],
-    prompts: [
-      "Describe the highest-risk action and your control.",
-      "Name one check you repeated.",
-      "State one evidence item that proves the control was used."
+    "prompts": [
+      "Name the corner joint.",
+      "Name both rebate stages.",
+      "Name the additional joint."
     ],
-    model: "I secured the timber, checked the marks and made each cut in the planned order. This reduced movement and let me find fit problems before final assembly."
+    "model": "The approved sequence prepares the dovetail corner joints before the back rebate. It then includes the finger joint and the bottom rebate. The exact dimensions, methods and settings come from the approved project resources and teacher demonstration."
   },
   {
-    title: "2. Record divider and fit decisions",
-    prompt: "Explain one divider fit problem you encountered and how you corrected it without forcing the component.",
-    clarification: "What must you include in divider and fit decisions?",
-    minWords: 45,
-    concepts: [
-      { label: "fit", terms: ["fit", "clearance", "divider", "slip", "alignment"] },
-      { label: "correction", terms: ["correct", "adjust", "re-check", "drift"] },
-      { label: "verification", terms: ["test", "verify", "check", "record"] }
+    "title": "2. Describe a controlled dry fit",
+    "prompt": "Explain the checks that should be made during a dry fit before the square glue-up stage.",
+    "clarification": "Focus on joint contact, alignment, squareness and teacher approval.",
+    "minWords": 45,
+    "concepts": [
+      {
+        "label": "fit",
+        "terms": [
+          "dry fit",
+          "joint",
+          "contact",
+          "seat"
+        ]
+      },
+      {
+        "label": "alignment",
+        "terms": [
+          "align",
+          "square",
+          "squareness",
+          "corner"
+        ]
+      },
+      {
+        "label": "authority",
+        "terms": [
+          "teacher",
+          "approved",
+          "check",
+          "permission"
+        ]
+      }
     ],
-    scaffold: [
-      "The fit issue was...",
-      "I corrected by...",
-      "I re-checked and confirmed..."
+    "scaffold": [
+      "During the dry fit I would...",
+      "I would check square by...",
+      "Before glue-up..."
     ],
-    prompts: [
-      "Describe the root cause of the issue.",
-      "Describe exactly what you changed first.",
-      "Say what your re-check showed."
+    "prompts": [
+      "Name the contact check.",
+      "Name the square check.",
+      "State the approval boundary."
     ],
-    model: "The divider was too tight, so I adjusted one edge a small amount and tested the fit again. I repeated the check until it fitted securely but could still be removed."
+    "model": "During the dry fit I would check that the confirmed joints seat consistently and that the components align without forcing. I would verify the box is square and record any correction. Glue-up would begin only after the required teacher check and approved process."
   },
   {
-    title: "3. Link a correction to your evidence log",
-    prompt: "Choose one correction from Weeks 3-4 and link it to a note or photo in your evidence routine.",
-    clarification: "What did you correct? Which note or photo proves the change?",
-    minWords: 40,
-    concepts: [
-      { label: "evidence", terms: ["evidence", "photo", "note", "log", "record"] },
-      { label: "cause", terms: ["cause", "issue", "problem", "diagnosis"] },
-      { label: "outcome", terms: ["result", "outcome", "confirmed", "fixed"] }
+    "title": "3. Record one correction loop",
+    "prompt": "Describe a likely fit or alignment issue and show how one approved correction would be tested and recorded.",
+    "clarification": "Use the sequence issue, cause, one change and recheck.",
+    "minWords": 50,
+    "concepts": [
+      {
+        "label": "issue",
+        "terms": [
+          "issue",
+          "gap",
+          "alignment",
+          "square",
+          "fit"
+        ]
+      },
+      {
+        "label": "correction",
+        "terms": [
+          "correct",
+          "adjust",
+          "change",
+          "approved"
+        ]
+      },
+      {
+        "label": "recheck",
+        "terms": [
+          "recheck",
+          "test",
+          "result",
+          "evidence"
+        ]
+      }
     ],
-    scaffold: [
-      "I observed...",
-      "I corrected by...",
-      "I can show this because..."
+    "scaffold": [
+      "The issue observed was...",
+      "The likely cause was...",
+      "After one approved adjustment..."
     ],
-    prompts: [
-      "Name the evidence item (photo or note).",
-      "Describe the link from issue to action.",
-      "State the outcome in one sentence."
+    "prompts": [
+      "Name the observed issue.",
+      "Identify a possible cause.",
+      "State the recheck evidence."
     ],
-    model: "I wrote a dated note explaining the problem and took before-and-after photos. The second photo and measurement showed that the correction improved the fit."
+    "model": "The dry fit showed that one corner did not seat consistently and the box was not square. I stopped, identified the affected fit and made one teacher-approved correction. I then repeated the dry fit and recorded the new square and contact checks."
   },
   {
-    title: "4. Reflect on control versus speed",
-    prompt: "Reflect on where you traded speed for control this fortnight and why that trade-off mattered.",
-    clarification: "What worked, what caused a problem, and what will you change and check next time?",
-    minWords: 50,
-    concepts: [
-      { label: "control", terms: ["control", "check", "pause", "verification", "safety"] },
-      { label: "speed", terms: ["speed", "time", "efficiency", "delay"] },
-      { label: "quality", terms: ["quality", "accuracy", "fit", "finish", "reliability"] }
+    "title": "4. Explain why control matters more than speed",
+    "prompt": "Reflect on one point in the joinery or glue-up sequence where slowing down protects quality and safety.",
+    "clarification": "Link the pause to a specific check and evidence item.",
+    "minWords": 45,
+    "concepts": [
+      {
+        "label": "control",
+        "terms": [
+          "control",
+          "pause",
+          "check",
+          "verify"
+        ]
+      },
+      {
+        "label": "quality",
+        "terms": [
+          "quality",
+          "fit",
+          "square",
+          "joint"
+        ]
+      },
+      {
+        "label": "evidence",
+        "terms": [
+          "photo",
+          "note",
+          "record",
+          "evidence"
+        ]
+      }
     ],
-    scaffold: [
-      "At one point I slowed down because...",
-      "This gave me more control over...",
-      "The result was..."
+    "scaffold": [
+      "I would slow down when...",
+      "The important check is...",
+      "I would record..."
     ],
-    prompts: [
-      "Name one action where you paused.",
-      "Explain the benefit of that pause.",
-      "State the quality impact."
+    "prompts": [
+      "Name the stage.",
+      "Explain the quality benefit.",
+      "Name the evidence."
     ],
-    model: "I slowed down and checked the box for square before final assembly. This helped me correct the fit early and made the divider more stable."
+    "model": "I would slow down during the dry fit because this is the last reversible point before glue-up. Checking joint contact and squareness protects the finished assembly. I would record the issue, correction and recheck with notes and photographs."
   }
 ];
