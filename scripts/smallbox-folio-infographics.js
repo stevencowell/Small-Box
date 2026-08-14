@@ -4,7 +4,7 @@
     ['Planning, marking and layout', 'sb-card-02-v2.png'],
     ['WHS and workshop controls', 'sb-card-03-v2.png'],
     ['Timber inspection and material placement', 'sb-card-04-v2.png'],
-    ['Joints and divider fitting', 'sb-card-05-v2.png'],
+    null, // Obsolete divider graphic intentionally suppressed.
     ['Assembly and clamp control', 'sb-card-06-v2.png'],
     ['Surface preparation', 'sb-card-07-v2.png'],
     ['Finish quality controls', 'sb-card-08-v2.png'],
