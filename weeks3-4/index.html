@@ -7,6 +7,7 @@
   <title>Small Box – Weeks 3-4 Guided Lesson</title>
   <link rel="stylesheet" href="../styles/course.css">
   <link rel="stylesheet" href="../styles/smallbox-overrides.css">
+  <link rel="stylesheet" href="../styles/timber-module-standard.css?v=20260815a">
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to lesson</a>
@@ -34,34 +35,41 @@
     </div>
   </header>
 
-  <main id="main-content">
-    <section class="student-strip card" aria-labelledby="student-details-title">
+  <main id="main-content"><div class="module-layout module-layout-single"><div class="module-main">
+    <section class="lesson-overview card">
+      <div class="overview-heading">
+        <p class="section-kicker">Module presentation</p>
+        <h2>Learn with the slides</h2>
+        <p>Use the three theory sections, guided checks and written responses to prepare and save your evidence.</p>
+        <p class="fine">Work through the module in order.</p>
+      </div>
+      <a class="primary-button" href="../project-resource.html">Open project resource</a>
+    </section>
+
+    <section class="card module-support-panel screen-only" aria-labelledby="learning-pack-title">
       <div>
-        <p class="section-kicker">Your work</p>
-        <h2 id="student-details-title">Student details</h2>
-        <p class="muted">Your entries save automatically in this browser. Use <strong>Download evidence PDF</strong> before leaving the page.</p>
+        <p class="section-kicker">Module learning pack</p>
+        <h2 id="learning-pack-title">Preview, learn and save evidence</h2>
+        <p>Download the module presentation, then use the Small Box folio when your evidence is ready.</p>
+      </div>
+      <div class="button-row">
+        <a class="primary-button" href="../presentations/small-box-module-02.pptx" download>Download presentation</a>
+        <a class="secondary-button" href="../smallbox-folio.html">Open folio evidence</a>
+      </div>
+    </section>
+
+    <section class="student-strip" aria-labelledby="student-details-title">
+      <div>
+        <p class="section-kicker">Student evidence</p>
+        <h2 id="student-details-title">Your details</h2>
       </div>
       <div class="student-fields">
         <label><span>First name</span><input id="student-first-name" type="text" autocomplete="given-name" placeholder="First name"></label>
         <label><span>Last name</span><input id="student-last-name" type="text" autocomplete="family-name" placeholder="Last name"></label>
         <label><span>Class</span><input id="student-class" type="text" placeholder="e.g. 9 Timber"></label>
       </div>
-      <div id="save-status" class="save-status" role="status" aria-live="polite">Ready</div>
+      <p id="save-status" class="save-status" role="status" aria-live="polite">Autosave is on</p>
     </section>
-
-    <section class="lesson-overview card">
-      <div class="overview-heading">
-        <div><p class="section-kicker">Weeks 3-4</p><h2>This module</h2></div>
-        <div class="time-badge">Two weeks</div>
-      </div>
-      <p class="module-summary">Follow the confirmed joinery sequence while keeping every fit and alignment check reversible until the approved glue-up stage.</p>
-      <div class="module-focus">
-        <div><strong>Cutting and fitting</strong><span>Translate marked dimensions into components you can defend.</span></div>
-        <div><strong>Joinery trials</strong><span>Dry-fit the confirmed joints, check alignment and correct before glue-up.</span></div>
-        <div><strong>Evidence discipline</strong><span>Record corrective checks before any irreversible step.</span></div>
-      </div>
-    </section>
-
     <nav class="lesson-nav card screen-only" aria-label="Weeks 3-4 lesson sections">
       <a href="#theory-1">Approved joint sequence</a>
       <a href="#theory-2">Dry fit, rebates and square glue-up</a>
@@ -114,6 +122,21 @@
       </ol>
       <p>During glue-up, the central quality control is keeping the box square while the approved joints are held correctly. The exact adhesive, clamping arrangement and timing remain teacher controlled.</p>
       <div class="callout warning"><strong>Key decision:</strong> Resolve fit and squareness while the work is still reversible.</div>
+      <aside class="section-video screen-only">
+        <div>
+          <p class="section-kicker">Watch, then check</p>
+          <h3>What you need to know about glue</h3>
+          <p><strong>Watch for:</strong> the conditions that support a sound timber glue joint after the dry fit and square checks are complete.</p>
+          <p class="video-source">YouTube · Steve Ramsey – Woodworking for Mere Mortals</p>
+        </div>
+        <div class="video-shell" data-video-id="Esvb64fUQ10" data-video-title="What you need to know about glue">
+          <img class="video-thumbnail" src="https://i.ytimg.com/vi/Esvb64fUQ10/hqdefault.jpg" alt="What you need to know about glue video thumbnail">
+          <div class="video-overlay">
+            <button type="button" class="video-play" aria-label="Play What you need to know about glue"><span aria-hidden="true">▶</span> Play video</button>
+            <a href="https://www.youtube.com/watch?v=Esvb64fUQ10" target="_blank" rel="noopener">Open on YouTube</a>
+          </div>
+        </div>
+      </aside>
     </section>
 
     <section class="card textbook-section" id="theory-3">
@@ -184,7 +207,7 @@
         <a class="next" href="../weeks5-6/index.html">Weeks 5-6 →</a>
       </div>
     </section>
-  </main>
+  </div></div></main>
 
   <footer>
     <p>Small Box Guided Course – Weeks 3-4</p>
@@ -193,6 +216,7 @@
 
   <script src="lesson-data.js"></script>
   <script src="../scripts/lesson-engine.js"></script>
+  <script src="../scripts/timber-module-standard.js"></script>
 <script src="../shared/smallbox-navigation.js?v=20260814" defer></script>
 </body>
 </html>
