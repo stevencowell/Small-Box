@@ -55,3 +55,9 @@ body { background: #f3f6f9; }
 @media print {
   .module-support-panel, .section-video { display: none; }
 }
+
+.open-larger-link {
+  display: inline-flex;
+  margin: 12px 16px 16px;
+  font-weight: 800;
+}
