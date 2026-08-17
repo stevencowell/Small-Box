@@ -37,7 +37,7 @@
   const busyWork = document.createElement("a");
   busyWork.className = "hub-return-link";
   busyWork.href = BUSY_WORK_URL;
-  busyWork.textContent = "Busy Work";
+  busyWork.textContent = "Puzzles";
 
   inner.append(link, busyWork, label);
   bar.append(inner);
