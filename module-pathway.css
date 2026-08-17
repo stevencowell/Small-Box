@@ -118,7 +118,7 @@
 }
 
 :where(.week-grid, .module-grid, .module-map, #module-grid, [data-module-grid], #pathway .grid)
-  > :where(.week-card, .module-card, article) > a:last-child,
+  > :where(.week-card, .module-card, article) > a.button-link,
 :where(.week-grid, .module-grid, .module-map, #module-grid, [data-module-grid], #pathway .grid)
   > :where(.week-card, .module-card, article) > div > a:last-child {
   position: absolute !important;
@@ -136,7 +136,7 @@
 }
 
 :where(.week-grid, .module-grid, .module-map, #module-grid, [data-module-grid], #pathway .grid)
-  > :where(.week-card, .module-card, article) > a:last-child::after,
+  > :where(.week-card, .module-card, article) > a.button-link::after,
 :where(.week-grid, .module-grid, .module-map, #module-grid, [data-module-grid], #pathway .grid)
   > :where(.week-card, .module-card, article) > div > a:last-child::after,
 :where(.module-grid, .module-map) > :where(a, .phase-card, .module-card, .module-tile):not(:has(a:last-child))::after,
