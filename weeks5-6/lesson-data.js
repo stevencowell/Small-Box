@@ -5,19 +5,19 @@ window.LESSON_CONFIG = {
   "theoryTargets": [
     {
       "id": "theory-1",
-      "title": "Lid chamfers and hinge-fit checks"
+      "title": "Optional lid or open-box checks"
     },
     {
       "id": "theory-1",
-      "title": "Lid chamfers and hinge-fit checks"
+      "title": "Optional lid or open-box checks"
     },
     {
       "id": "theory-1",
-      "title": "Lid chamfers and hinge-fit checks"
+      "title": "Optional lid or open-box checks"
     },
     {
       "id": "theory-1",
-      "title": "Lid chamfers and hinge-fit checks"
+      "title": "Optional lid or open-box checks"
     },
     {
       "id": "theory-2",
@@ -64,7 +64,7 @@ window.MC_QUESTIONS = [
       "A glue stain"
     ],
     "correct": 0,
-    "hint": "The confirmed lid stage includes chamfers.",
+    "hint": "The optional lid stage includes chamfers where specified.",
     "strongHint": "A chamfer changes a sharp edge into a bevelled edge.",
     "feedback": [
       "Correct. A chamfer is a bevelled edge.",
@@ -74,7 +74,7 @@ window.MC_QUESTIONS = [
     ]
   },
   {
-    "question": "Where are chamfers confirmed in the approved Small Box sequence?",
+    "question": "For the approved lidded version, where are chamfers named in the sequence?",
     "options": [
       "On the lid stage",
       "On a removable internal section",
@@ -82,17 +82,17 @@ window.MC_QUESTIONS = [
       "On the workshop bench"
     ],
     "correct": 0,
-    "hint": "Use the approved production order.",
-    "strongHint": "The sequence names lid chamfers.",
+    "hint": "Read the optional lid pathway.",
+    "strongHint": "The lid pathway names chamfers; an open box does not require that lid stage.",
     "feedback": [
-      "Correct. The lid is prepared with chamfers.",
+      "Correct. Lid chamfers apply when the lid is selected and specified in the approved source.",
       "That is not part of the approved project.",
       "The folio records evidence; it is not timber.",
       "The bench is not part of the product."
     ]
   },
   {
-    "question": "How are the Small Box hinges controlled?",
+    "question": "If the approved lid uses hinges, how are they controlled?",
     "options": [
       "They are teacher supplied or teacher approved",
       "Any hinge can be used if it is cheap",
@@ -106,11 +106,11 @@ window.MC_QUESTIONS = [
       "Correct. The teacher controls hinge suitability.",
       "Price alone does not establish suitability.",
       "That is not the approved project requirement.",
-      "The lidded project requires suitable approved hardware."
+      "Follow the approved hinged design. An open box does not require hinges."
     ]
   },
   {
-    "question": "What should be checked before the hinges are finally fitted?",
+    "question": "For a hinged version, what should be checked before the hinges are finally fitted?",
     "options": [
       "Lid alignment, movement, hardware suitability and the approved fitting process",
       "Only the colour of the hinge",
@@ -184,14 +184,14 @@ window.MC_QUESTIONS = [
   {
     "question": "What should a final functional check include?",
     "options": [
-      "Lid movement, hinge security, joint condition, box stability and finish quality",
+      "Joint condition, stability, access and finish; lid movement and hinge security only where fitted",
       "Only the final colour",
       "Only the project title",
       "Only whether the box looks expensive"
     ],
     "correct": 0,
     "hint": "Function and construction quality both matter.",
-    "strongHint": "Check the lid, hardware, joints, stability and finish.",
+    "strongHint": "Check the features of your approved open or lidded box.",
     "feedback": [
       "Correct. This gives a balanced product check.",
       "Colour is only one visual feature.",
@@ -200,7 +200,7 @@ window.MC_QUESTIONS = [
     ]
   },
   {
-    "question": "Which evidence best shows the lid and hinge stage was controlled?",
+    "question": "For a hinged box, which evidence best shows the lid and hinge stage was controlled?",
     "options": [
       "A before-and-after record of alignment, approved hardware, fitting checks and final movement",
       "One photograph with the lid closed",
@@ -256,7 +256,7 @@ window.MC_QUESTIONS = [
   {
     "question": "When is the project evidence ready to close?",
     "options": [
-      "When the lid and hardware checks, surface and finish controls, final function and balanced evaluation are recorded",
+      "When applicable lid or open-box checks, surface and finish controls, final function and balanced evaluation are recorded",
       "When the last coat is applied",
       "When the box is photographed once",
       "When the student runs out of time"
@@ -275,50 +275,54 @@ window.MC_QUESTIONS = [
 
 window.WRITTEN_QUESTIONS = [
   {
-    "title": "1. Explain the lid and hinge checks",
-    "prompt": "Describe the checks that show the lid and teacher-approved hinges are ready for final fitting.",
-    "clarification": "Include alignment, movement, hardware suitability and the approved process.",
+    "title": "1. Explain your lid or open-box checks",
+    "prompt": "For a lidded box, describe the checks that show the lid and any teacher-approved hinges are ready for final fitting. For an open box, describe checks of the opening, edge condition and access to the intended contents instead.",
+    "clarification": "Answer for your approved version. Include observed function, any correction and the required teacher check; do not claim lid or hinge work on an open box.",
     "minWords": 50,
     "concepts": [
       {
-        "label": "lid",
+        "label": "function",
         "terms": [
           "lid",
+          "opening",
+          "edge",
+          "access",
           "alignment",
           "movement",
           "fit"
         ]
       },
       {
-        "label": "hardware",
+        "label": "evidence",
         "terms": [
-          "hinge",
-          "hinges",
-          "hardware",
-          "approved"
+          "check",
+          "observ",
+          "record",
+          "photo",
+          "correct"
         ]
       },
       {
         "label": "authority",
         "terms": [
           "teacher",
+          "approved",
           "process",
-          "check",
           "SOP"
         ]
       }
     ],
     "scaffold": [
-      "I checked the lid by...",
-      "The hinges were suitable because...",
-      "Before final fitting..."
+      "My approved version is...",
+      "I checked its function by...",
+      "I recorded the result and teacher check by..."
     ],
     "prompts": [
-      "Describe lid function.",
-      "State the hardware authority.",
-      "Name the final approval check."
+      "Name the approved version.",
+      "Describe the applicable function checks and what you observed.",
+      "Record any correction and teacher check."
     ],
-    "model": "I checked that the lid aligned with the box and moved as intended without forcing. The small hinges were supplied or approved by the teacher. Before final fitting, I confirmed the hardware position and process through the required teacher check and current workshop procedure."
+    "model": "Open-box example: My teacher confirmed an open box, so no lid or hinge work was required. I checked the opening and exposed edges and whether the intended contents could be accessed. I recorded the observations and any teacher-approved correction, then rechecked the result before moving to finishing. Lidded-box example: I checked lid alignment and movement without forcing. Where hinges were specified, I confirmed teacher approval, hardware suitability and the demonstrated fitting process before final fitting, then recorded the function check."
   },
   {
     "title": "2. Determine finish readiness",
@@ -371,7 +375,7 @@ window.WRITTEN_QUESTIONS = [
   {
     "title": "3. Complete a balanced PMI review",
     "prompt": "Write a Plus, Minus and Interesting review of the finished Small Box using observable evidence.",
-    "clarification": "Include the lid, joints, stability or finish and finish with a realistic improvement.",
+    "clarification": "Use joints, stability, access or finish, adding lid and hinge observations only where fitted. Finish with a realistic improvement.",
     "minWords": 60,
     "concepts": [
       {
@@ -412,7 +416,7 @@ window.WRITTEN_QUESTIONS = [
       "Describe one limitation honestly.",
       "Give a realistic next step."
     ],
-    "model": "Plus: the lid aligned well and the hinges held it securely, which was shown in the movement check. Minus: one finish area was less even than the others. Interesting/next step: I would improve the surface inspection and record the light-angle check before applying the approved finish."
+    "model": "Plus: the open box stood steadily and gave access to the intended contents, as shown in my function check. Minus: one finish area was less even than the others. Interesting/next step: I would improve the surface inspection and record the light-angle check before applying the approved finish. For a lidded version, a supported lid-fit or hinge observation could also be used."
   },
   {
     "title": "4. Transfer two process habits",

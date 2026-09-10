@@ -1,0 +1,50 @@
+{
+  "schema_version": 1,
+  "date": "2026-09-10",
+  "project": "Small Box",
+  "authority": {
+    "type": "explicit-teacher-direction",
+    "instruction": "the lid on the small box can be optional"
+  },
+  "decision": "A lid is optional. Confirm the open or lidded version with the teacher and record it before stock planning.",
+  "application": {
+    "stock": "Sides and bottom for an open box; include top/lid stock only if selected.",
+    "lid_and_hinges": "Lid chamfers apply only to the selected and specified lid. Small hinges are teacher supplied or teacher approved only where the approved version uses them.",
+    "open_box_evidence": "Record the approved lid-free choice and observable opening, edge condition, access, stability and finish checks. Lid and hinge evidence is not required for an open box.",
+    "learning": "All students may answer conditional lid theory questions; personal practical and folio evidence must describe the version actually made.",
+    "unchanged_authority": "The approved local sources and teacher direction continue to control dimensions, joints, tolerances, practical procedures, finish, assessment arrangements and permission."
+  },
+  "supersedes": "Mandatory-lid wording in earlier programme documents, the three module presentations and alignment manifests. This amendment changes that requirement only; it does not approve a new construction method.",
+  "retained_documents": [
+    {
+      "path": "Small-Box-15-Period-Teaching-Program-v2.1-Network-Benchmark.docx",
+      "sha256": "a0bfd5a61ea0c0acdc75776c6d4f67e5470b4aa2b618cf0723674d741c3e5aa6"
+    },
+    {
+      "path": "Small-Box-15-Period-Teaching-Program-v2.1-Network-Benchmark.pdf",
+      "sha256": "e9c0142625977f95ad15bd675cdc4b8ed8686122dbb00de439c2862dedc400e4"
+    },
+    {
+      "path": "Small-Box-15-Period-Alignment-Manifest-v2.0.json",
+      "sha256": "13392366317465ad42c014142b1395a8d9adbf9fe535df30702c54431aab9b34"
+    },
+    {
+      "path": "Small-Box-15-Period-Alignment-Manifest-v2.1.json",
+      "sha256": "9103afd3ec3e188b289da8b06a93031e47e989d28b676c97f3f1f1163953a309"
+    }
+  ],
+  "retained_presentations": [
+    {
+      "path": "presentations/small-box-module-01.pptx",
+      "sha256": "a403b2e4d711ff5621c13c77cac5dd929aa970971870d014991ca47f3d5e327d"
+    },
+    {
+      "path": "presentations/small-box-module-02.pptx",
+      "sha256": "deb5d9f8d824abbb88dbd61f7d798bb7c4cbfcaeb31097c032a9194d97640dcb"
+    },
+    {
+      "path": "presentations/small-box-module-03.pptx",
+      "sha256": "8091988bd5a24690dc43358543b436ca602537f1b222083edc945e20b41a9a52"
+    }
+  ]
+}

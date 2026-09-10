@@ -58,16 +58,16 @@ window.MC_QUESTIONS = [
   {
     "question": "What is the approved project outcome?",
     "options": [
-      "A small timber box with a fitted lid",
+      "A small timber box with an optional lid",
       "An open tray with removable sections",
       "A timber clock case",
       "A storage rack with shelves"
     ],
     "correct": 0,
     "hint": "Return to the confirmed project brief.",
-    "strongHint": "The approved outcome includes a lid.",
+    "strongHint": "The lid is optional; confirm an open or lidded box with the teacher.",
     "feedback": [
-      "Correct. The approved project is a small timber box with a lid.",
+      "Correct. The approved project is a small timber box with an optional lid.",
       "That describes a different project.",
       "That is not the Small Box project.",
       "That is not the Small Box project."
@@ -76,23 +76,23 @@ window.MC_QUESTIONS = [
   {
     "question": "Which components are named when calculating the required timber stock?",
     "options": [
-      "Sides, top and bottom",
+      "Sides and bottom, plus the top/lid only if selected",
       "Legs, rails and seat",
       "Drawer front and runners",
       "Handle, wheels and axle"
     ],
     "correct": 0,
     "hint": "Use only the components named in the approved brief.",
-    "strongHint": "The brief names the sides, top and bottom.",
+    "strongHint": "Calculate stock for the approved open or lidded version.",
     "feedback": [
-      "Correct. These are the stock groups confirmed by the brief.",
+      "Correct. Include the top/lid stock only when that feature is selected.",
       "Those components belong to another project.",
       "Those components are not part of this brief.",
       "Those components are not part of this brief."
     ]
   },
   {
-    "question": "How should the project hinges be obtained?",
+    "question": "If the selected lid uses hinges, how should those hinges be obtained?",
     "options": [
       "From any online seller chosen by the student",
       "Teacher supplied or teacher approved",
@@ -106,7 +106,7 @@ window.MC_QUESTIONS = [
       "Unverified hardware can be unsuitable.",
       "Correct. Hinges are teacher supplied or teacher approved.",
       "Unapproved substitutes are not authorised.",
-      "The approved lidded project includes suitable hinges."
+      "A hinged version needs suitable approved hardware. An open box has no lid or hinge requirement."
     ]
   },
   {
@@ -276,48 +276,48 @@ window.MC_QUESTIONS = [
 window.WRITTEN_QUESTIONS = [
   {
     "title": "1. Summarise the approved Small Box brief",
-    "prompt": "Explain the approved project outcome, the timber components named in the brief and who controls the hardware.",
-    "clarification": "Include the lid, sides, top, bottom and teacher-approved hinges.",
+    "prompt": "Explain the approved project outcome, your open or lidded choice, the timber components required and who controls any hardware.",
+    "clarification": "Include sides and bottom, the top/lid only if selected, and teacher control of the design choice and any hinges.",
     "minWords": 45,
     "concepts": [
       {
         "label": "outcome",
         "terms": [
           "box",
-          "lid",
-          "lidded"
+          "open",
+          "lidded",
+          "optional"
         ]
       },
       {
-        "label": "components",
+        "label": "stock",
         "terms": [
           "sides",
-          "top",
           "bottom",
+          "stock",
           "timber"
         ]
       },
       {
-        "label": "hardware",
+        "label": "authority",
         "terms": [
-          "hinges",
           "teacher",
           "approved",
-          "supplied"
+          "confirm"
         ]
       }
     ],
     "scaffold": [
-      "The approved outcome is...",
-      "The timber calculation includes...",
-      "The hinges are..."
+      "My approved box will be...",
+      "The stock I need is...",
+      "The teacher confirms..."
     ],
     "prompts": [
-      "Name the finished product.",
-      "Name the stock groups.",
-      "Explain the hardware control."
+      "State your open or lidded choice.",
+      "Name the stock needed for that choice.",
+      "State who confirms the choice and any hardware."
     ],
-    "model": "The approved outcome is a small timber box with a lid. The timber calculation uses the sides, top and bottom from the approved source. The small hinges must be supplied or approved by the teacher so their size and profile suit the project."
+    "model": "My approved outcome is a small timber box. I will confirm with the teacher whether to include the optional lid before calculating stock. An open box needs the sides and bottom; a selected lid adds top/lid stock. Any hinges for a hinged version must be supplied or approved by the teacher."
   },
   {
     "title": "2. Describe your marking verification plan",
